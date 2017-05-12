@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body{
+    font-family: Helvetica Neue, Helvetica,Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+/* Aplicando estilo aos elementos da estrutura das páginas */
+a{
+    text-decoration: none;
+}
+.btnVoltar, .btnFiltrar{
+     margin-top: 8%;
+     margin-bottom: 0;
+     padding: 0;
+     font-size: 1.5em;
+ }
+.divBusca{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+.interfaceLista{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.icone{
+    width: 10%;
+    height: auto;
+}
+.btnMenu{
+    color: #ffffff;
+}
+.form-control{
+    font-size: 1.2em;
+    height: auto;
+}
+.glyphicon-ok{
+    font-size: 1.3em;
+    color: #96df97;
+}
+.navbar-inverse{
+    background: #5560bf;
+    border: none;
+    color: #ffffff;
+}
+.rodape{
+    background: rgba(236,236,236,0.7);
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+}
+.navbar-form{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    color: #ffffff;
+}
+.tituloLista{
+    margin-top: 8%;
+    margin-left: 15%;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* Aplicando estilo aos botões da página inicial */
+#hospital{
+    background: #b91c47;
+}
+#delegacia{
+    background: #1266b5;
+}
+#pontos{
+    background: #00869a;
+}
+#praias{
+    background: #d6b531;
+}
+#comer{
+     background: #009b01;
+}
+#dormir{
+    background: #9800a1;
+}
+#eventos{
+    background: #d14726;
+}
+#banheiros{
+    background: #4388cc;
+}
+
+/* Aplicando estilo aos cards */
+.glyphicon-plus-sign, .glyphicon-minus-sign{
+    font-size: 2em;
+    color: #5560bf;
+    vertical-align: text-top;
+}
+.imgItemLista{
+    width: 100%;
+    height: auto;
+}
+.infoItemLista{
+    float: left;
+    margin-left: 3%;
+}
+.tituloItemLista{
+    margin: 1% auto;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.bairroLista{
+    margin: 0;
+    padding: 0;
+}
+.thumbnail{
+    padding: 0;
+    box-shadow: 0 2px 5px #a5a5a5;
+    border-radius: 0;
+}
+.thumbnail p{
+    margin-bottom: 0;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #6f6f6f;
+}
+.tituloDescricaoItem{
+    margin-top: 2%;
+    color: #5560bf;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e2e2;
+}
+.caption p span{
+    font-weight: 400;
+}
+.detalhes{
+    margin-top: 5%;
+}
+.glyphicon-globe, .glyphicon-map-marker{
+    font-size: 1.2em;
+}
+.links{
+    color: rgb(88, 110, 157);
+    font-weight: 600;
+}
+.fa-spin{
+    position: fixed;
+    top: 45%;
+    left: 40%;
+    z-index: 1;
+    font-size: 5em;
+    color: rgba(85, 96, 191, 0.65);
+}
