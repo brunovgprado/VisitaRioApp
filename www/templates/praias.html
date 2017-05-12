@@ -1,0 +1,49 @@
+<!-- cabeçalho da página com a barra de navegação e o titulo -->
+<nav class="navbar navbar-inverse navbar-fixed-top cabecalho">
+    <div class="container">
+        <div class="voltar">
+            <span class="glyphicon glyphicon-arrow-left pull-left btnVoltar" ng-click="volta()"></span>
+        </div>
+        <span class="glyphicon glyphicon-search pull-right btnFiltrar"></span>
+        <h4 class="tituloLista">Praias</h4>
+    </div>
+</nav><!-- Fim do cabeçalho-->
+
+<!-- Estrutura do campo de busca/pesquisa-->
+<div class="col-xs-12 divBusca">
+    <form class="navbar-form" role="search">
+        <div class="input-group add-on busca">
+            <input ng-model="filtro" class="form-control" placeholder="Buscar" id="srch-term" type="text">
+            <div class="input-group-btn btnOkBusca">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-ok"></i></button>
+            </div>
+        </div>
+    </form>
+</div><!-- Fim da estrutura do campo de busca/pesquisa-->
+<i ng-hide="item.lateLoader"  ng-class="iconeCarrega" class="fa fa-spinner fa-spin"></i>
+<div ng-class="class" class="interfaceLista hide">
+
+    <!-- Estrutura do CARD que recebe o ng-repeat -->
+    <div class="col-xs-12 col-sm-6 col-md-4 itemLista" ng-repeat="praia in dados.praias | filter: filtro" ng-model-options="{debounce: 300}">
+        <div class="thumbnail">
+            <img src="{{praia.foto}}" alt="Foto do local" class="img-responsive imgItemLista">
+            <div class="caption">
+                <h4 class="tituloItemLista">{{praia.nome}}<a ng-click="goDetalhes = !goDetalhes">
+                    <span ng-hide="goDetalhes" class="glyphicon glyphicon-plus-sign pull-right" ></span>
+                    <span ng-show="goDetalhes" class="glyphicon glyphicon-minus-sign pull-right" ></span>
+                </a></h4>
+                <p>{{praia.bairro}}</p>
+
+                <!-- Div que contem a estrutura que fica oculta com os detalhes do local -->
+                <div class="detalhes" ng-show="goDetalhes">
+                    <span class="tituloDescricaoItem visible-xs-block visible-sm-block">Localização
+                        <a href="{{praia.mapa}}" class="verMapa pull-right links">Ver Mapa <span class="glyphicon glyphicon-map-marker"></span></a>
+                        </span>
+                    <p>Endereço: <span>{{praia.endereco}}</span></p>
+                    <p>Região: <span>{{praia.regiao}}</span></p>
+                    <p>&nbsp;</p>
+                </div><!-- Fim da estrutura de detalhes -->
+            </div>
+        </div>
+    </div><!-- Fim do CARD -->
+</div>
