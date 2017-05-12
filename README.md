@@ -1,5 +1,5 @@
 # VisitaRioApp  
-=================================
+=================================  
 Repositório do projeto VisitaRio.
 
 ### O que é o VisitaRio?
