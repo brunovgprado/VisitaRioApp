@@ -1,6 +1,7 @@
 # VisitaRioApp  
-Repositório do projeto VisitaRio.
 =================================
+Repositório do projeto VisitaRio.
+
 ### O que é o VisitaRio?
 O App VisitaRio é um aplicativo híbrido que tem como objetivo fornecer a seus usuários 
 informações sobre locais importantes na cidade do Rio de Janeiro tais como: Hotéis, Restaurantes, 
