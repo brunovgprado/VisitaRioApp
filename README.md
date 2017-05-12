@@ -19,5 +19,5 @@ Jquery e Bootstrap. A View foi desenvolvida como Single Page Application.
 [Link para dowload do apk](https://github.com/brunovitorprado/VisitaRioApp)
 
 Ou use o QRCode
-[QrCode](https://github.com/brunovitorprado/VisitaRioApp/QrCodeVisitaRio.png)
+![QRCode VisitaRio](https://github.com/brunovitorprado/VisitaRioApp/QrCodeVisitaRio.png)
 
