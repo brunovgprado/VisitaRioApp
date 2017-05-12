@@ -14,3 +14,6 @@ Horário de funcionamento e Principais serviços.
 ### Quais linguagens, Tecnologias e Metodologias estão sendo empregadas?
 O projeto utiliza Phonegap (Apache Cordova) para integrar o front-end com a plataforma do dispositivo móvel. O Front-end utiliza AngularJs,
 Jquery e Bootstrap. A View foi desenvolvida como Single Page Application. 
+
+### DEMO (Android)  
+[Link para instalação](https://build.phonegap.com/apps/2367936/install/hh5TJxXpFLBjHy4doY8v)
