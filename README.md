@@ -16,7 +16,7 @@ O projeto utiliza Phonegap (Apache Cordova) para integrar o front-end com a plat
 Jquery e Bootstrap. A View foi desenvolvida como Single Page Application. 
 
 ### DEMO (Android)  
-[Link para download do apk](https://github.com/brunovitorprado/VisitaRioApp)
+[Link para download do apk](https://build.phonegap.com/apps/2616588)
 
 Ou use o QRCode  
 ![QRCode VisitaRio](https://raw.githubusercontent.com/brunovitorprado/VisitaRioApp/master/QrCodeVisitaRio.png)
