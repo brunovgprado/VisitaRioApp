@@ -19,5 +19,9 @@ Jquery e Bootstrap. A View foi desenvolvida como Single Page Application.
 [Link para download do apk](https://build.phonegap.com/apps/2616588)
 
 Ou use o QRCode  
-![QRCode VisitaRio](https://raw.githubusercontent.com/brunovitorprado/VisitaRioApp/master/QrCodeVisitaRio.png)
+![QRCode VisitaRio](https://raw.githubusercontent.com/brunovitorprado/VisitaRioApp/master/QrCodeVisitaRio.png)  
+
+### Screenshots  
+
+![VisitaRio_Home](https://brunovitorprado.github.io/visitario/prints/visitario_home.png) ![VisitaRio_Home](https://brunovitorprado.github.io/visitario/prints/visitario_galeria_eventos_inicio.png) ![VisitaRio_Home](https://brunovitorprado.github.io/visitario/prints/visitario_galeria_eventos.png) ![VisitaRio_Home](https://brunovitorprado.github.io/visitario/prints/visitario_evento_expandido.png)
 
