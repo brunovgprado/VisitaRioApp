@@ -23,5 +23,5 @@ Ou use o QRCode
 
 ### Screenshots  
 
-![VisitaRio](//brunovitorprado.github.io/visitario/prints/visitario_home.jpg) ![VisitaRio](https://brunovitorprado.github.io/visitario/prints/visitario_galeria_eventos_inicio.jpg) ![VisitaRio](https://brunovitorprado.github.io/visitario/prints/visitario_galeria_eventos.jpg) ![VisitaRio](https://brunovitorprado.github.io/visitario/prints/visitario_evento_expandido.jpg)
+![VisitaRio](https://brunovitorprado.github.io/visitario/prints/visitario_home.jpg) ![VisitaRio](https://brunovitorprado.github.io/visitario/prints/visitario_galeria_eventos_inicio.jpg) ![VisitaRio](https://brunovitorprado.github.io/visitario/prints/visitario_galeria_eventos.jpg) ![VisitaRio](https://brunovitorprado.github.io/visitario/prints/visitario_evento_expandido.jpg)
 
